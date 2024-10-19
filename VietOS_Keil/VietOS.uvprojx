@@ -389,6 +389,11 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
+            <File>
+              <FileName>timebase.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\timebase.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -418,6 +423,13 @@
         </Group>
         <Group>
           <GroupName>Inc</GroupName>
+          <Files>
+            <File>
+              <FileName>timebase.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\timebase.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>

@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp.sp
 ".\objects\main.o"
+".\objects\timebase.o"
 ".\objects\led.o"
 ".\objects\uart.o"
 ".\objects\startup_stm32f411xe.o"
