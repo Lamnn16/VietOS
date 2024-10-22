@@ -9,7 +9,7 @@ License Information: Lam Nguyen, ELMOS Semiconductor SE, LIC=----
  
 Tool Versions:
 Toolchain:       MDK-Lite  Version: 5.41.0.0
-Toolchain Path:  C:\Program Files\ARM\ARMCLANG\bin\
+Toolchain Path:  C:\Program Files\ARM\ARMCLANG\Bin
 C Compiler:      ArmClang.exe V6.22
 Assembler:       Armasm.exe V6.22
 Linker/Locator:  ArmLink.exe V6.22
@@ -22,22 +22,21 @@ Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
 C:\Users\nlng\Desktop\Work\Git_Repositories\VietOS\VietOS_Keil\VietOS.uvprojx
-Project File Date:  10/13/2024
+Project File Date:  10/22/2024
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Program Files\ARM\ARMCLANG\bin\'
+*** Using Compiler 'V6.22', folder: 'C:\Program Files\ARM\ARMCLANG\Bin'
 Rebuild target 'VietOS'
-compiling main.c...
-*** Error: CreateProcess failed, Command: '"C:\Program Files\ARM\ARMCLANG\bin\\ArmCC" --via ".\objects\main.__i"'
+compiling osKernel.c...
+compiling timebase.c...
 compiling led.c...
-*** Error: CreateProcess failed, Command: '"C:\Program Files\ARM\ARMCLANG\bin\\ArmCC" --via ".\objects\led.__i"'
 compiling system_stm32f4xx.c...
-*** Error: CreateProcess failed, Command: '"C:\Program Files\ARM\ARMCLANG\bin\\ArmCC" --via ".\objects\system_stm32f4xx.__i"'
+compiling uart.c...
+compiling main.c...
 assembling startup_stm32f411xe.s...
-startup_stm32f411xe.s: Warning: A1950W: The legacy armasm assembler is deprecated. Consider using the armclang integrated assembler instead.
 linking...
-Program Size: Code=548 RO-data=424 RW-data=0 ZI-data=1632  
-".\Objects\VietOS.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=784 RO-data=440 RW-data=4 ZI-data=1640  
+".\Objects\VietOS.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -63,12 +62,11 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE@6.1.0
 
    * Component: Keil::Device:Startup@2.6.3
-      Source file:   MDK/Device/Source/ARM/STM32F411xx_OPT.s
       Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
       Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
       Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s
+      Source file:   MDK/Device/Source/ARM/STM32F411xx_OPT.s
       Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
-Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

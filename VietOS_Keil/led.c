@@ -15,10 +15,10 @@ void led_init(void)
 void led_on(void)
 {
   /* Set PA5 */
-	GPIOA->BSRR  |= LED_PIN;
+	GPIOA->ODR  |= LED_PIN;
 }
 
 void led_off(void){
-	GPIOA->BSRR  &= ~LED_PIN;
+	GPIOA->ODR  &= ~LED_PIN;
 }
 	
