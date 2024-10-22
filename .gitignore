@@ -42,8 +42,10 @@
 *._ii
 
 # Generated output files
-/Listings/*
-/Objects/*
+VietOS/Listings/*
+VietOS/Objects/*
+VietOS/DebugConfig/*
+VietOS/.vscode/*
 
 # Debugger files
 # define exception below if needed
